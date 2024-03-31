@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 export default function Page() {
   const router = useRouter();
   const [token, setToken] = useState("");
+  "c"
 
   const handleLogut = () => {
     console.log("logging out!");
